@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Login - DemoDay</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="container">
+            <div id="square">
+                <div class="front">
+                    <h1>Login</h1>
+                    <form action="#" method="post">
+                        <input 
+                        required 
+                        type="email" 
+                        name="email" 
+                        id="email" 
+                        placeholder="Email"/>
+                        <input 
+                        required 
+                        type="password" 
+                        name="password" 
+                        id="password" 
+                        placeholder="Password"/>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div class="right">
+                    <h1>Crie uma nova conta</h1>
+                    <form action="#" method="post">
+                        <input 
+                        required 
+                        type="email" 
+                        name="email" 
+                        id="email" 
+                        placeholder="Email"/>
+                        <input 
+                        required 
+                        type="text" 
+                        name="fullName" 
+                        id="fullName" 
+                        placeholder="Full name">
+                        <input 
+                        required 
+                        type="password" 
+                        name="password" 
+                        id="password" 
+                        placeholder="Password">
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div class="left">
+                    <h1>Insira seu e-mail para resetar a senha</h1>
+                    <form action="#" method="post">
+                        <input 
+                        required 
+                        type="email" 
+                        name="email" 
+                        id="email" 
+                        placeholder="Email"/>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+            <div class="actions">
+                <button id="leftSide" type="button">Esqueci a senha</button>
+                <button id="frontSide" type="button">Login</button>
+                <button id="rightSide" type="button">Inscreva-se</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/login.js"></script>
+</body>
+
+</html>

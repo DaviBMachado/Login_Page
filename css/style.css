@@ -138,3 +138,10 @@ body {
         background-image: linear-gradient(to top, #012a4a, #01497c, #89c2d9);
     }
 }
+@media (max-width: 448px){
+    .container{
+        width: 380px;
+        padding: 20px 70px;
+        height: 380px;
+    }
+}
